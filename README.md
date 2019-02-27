@@ -14,9 +14,7 @@ A Tool Library for Generating JUnit Test Reports<br/>
 例如main方法是这样的:
 ```
   public static void main(String[] args){
-  		
-  	//执行Junit测试
-  	JUnitCore junit = new JUnitCore();
+    JUnitCore junit = new JUnitCore();
     //等待测试的测试类数组
     Class[] TestClass = new Class[]{Test1.class, Test2.class};
      
