@@ -14,7 +14,7 @@ A Tool Library for Generating JUnit Test Reports<br/>
    格式来源[点击前往](http://help.catchsoftware.com/display/ET/JUnit+Format),此报告经过测试,支持使用在Jenkins.
 ## 怎么使用JUnitReportBuilder？
 例如main方法是这样的:
-```
+```java
   public static void main(String[] args){
     JUnitCore junit = new JUnitCore();
     //等待测试的测试类数组
